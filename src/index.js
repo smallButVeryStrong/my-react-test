@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
+  // React.StrictMode 严格模式  会出一些说明和警告
   <React.StrictMode>
     <App />
   </React.StrictMode>,
